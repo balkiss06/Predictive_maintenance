@@ -10,7 +10,7 @@ II/DATASET UTILISE:
 3/ metric1, metric2, metric3, metric4, metric5, metric6, metric7, metric8, metric9 : les mesures des différents capteurs. (Dans notre cas, les mesures sont anonymes).
     
     TARGET (CIBLE)
-4/ failure : indique si la machine est en panne ou non.
+4/failure : indique si la machine est en panne ou non.
 *failure=0: Pas de panne.
 *failure=1: Panne.
 
