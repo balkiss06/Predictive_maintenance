@@ -51,3 +51,12 @@ VIII/EVALUATION:
 
 IX/TEST:
     Finalement, On entre un nouvel échantillon avec des nouvelles valeurs qu’on choisit et on voit le prédiction du système. 
+
+X//CONCLUSION:
+         Au cours de ce projet, on a appris qu’on peut fusionner la technologie avec l’industrie en concevant un système de maintenance prédictive à base de ML offrant l’opportunité de prédire l'état des composants d'une machine à partir des données issues des capteurs. 
+    Un démarche composé d’un EDA, suivi d’un prétraitement des données, un entraînement du modèle et finalement une évaluation nous a identifié le modèle le plus performant pour cette tâche. 
+       Les résultats montre ,ainsi, qu’un tel modèle permet d'anticiper les défaillances, réduire les arrêts imprévus et optimiser les opérations de maintenance dans les secteurs industriels.
+       
+## Author
+**Balkis Joudi**
+-LinkedIn: https://www.linkedin.com/in/balkis-joudi-332076328/
