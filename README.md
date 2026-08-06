@@ -1,7 +1,7 @@
-****I/OBJECTIF:
+I/OBJECTIF:
        Les pannes imprévues, les arrets soudains des machines entrainant une interruption de la production et une perte de productivité , les couts élevés de réparation... tous ces problèmes que témoignent les industries quotidiennement peuvent etre résolus par un système de maintenance prédictive qui est capable de prédire les pannes des machines avant qu’elles surviennent en se basant sur leurs données de fonctionnement.
 
-****II/DATASET UTILISE:
+II/DATASET UTILISE:
     https://www.kaggle.com/datasets/hiimanshuagarwal/predictive-maintenance-dataset
 
     FEATURES
@@ -14,7 +14,7 @@
 *failure=0: Pas de panne.
 *failure=1: Panne.
 
-****III/EDA:
+III/EDA:
     C’est la partie de l’exploration des données du dataset avant de les manipuler.
 *Visualisation des valeurs manquantes.
 *Vérification de l’existence des doublons.
@@ -23,16 +23,16 @@
 *Comptage des valeurs.
 *Analyse de la variable cible.
 
-****IV/PRETRAITEMENT:
+IV/PRETRAITEMENT:
 *Suppression des doublons.
 *Séparation des jours, mois et années et leur visualisation.
 *Encodage des identifiants des machine dans un nouvel attribut “device_encoded”.
 *Suppression des colonnes “device”, “date” et “metric8”.
 
-****V/SEPARATION DES DONNEES:
+V/SEPARATION DES DONNEES:
 *Standardisation (Pour que toutes les variables aient la meme unité): On sépare ensuite les données d’entrainement de celles du test et on fait l’équilibrage nécessaire pour les données d’entrainement. Dans notre cas, on a choisi de faire un oversampling avec la fonction SMOTE(). On peut aussi un undersampling, mais dans ce cas, on va perdre des données.
 
-****VI/MODELE DU MACHINE LEARNING:
+VI/MODELE DU MACHINE LEARNING:
      Il s’agit d’un problème de classification donc on peut utiliser l’algorithme XGBOOST: 
 Avantages:
   Ce modèle offre une très grande précision, il n’est pas sensible aux outliers. De plus, on peut changer sa précision en manipulant ses hyperparmaètres.
@@ -43,11 +43,11 @@ Avantages:
 Inconvénients:
    XGBOOST est plus lent si on demande une grande précision, plus complexe puisqu’on doit donner les valeurs optimales pour ses hyperparamètres.
 
-****VII/ENTRAINEMENT DU MODELE:
+VII/ENTRAINEMENT DU MODELE:
     Le modèle est entrainé sur les données d’entrainement puis il utilise les données de test pour prédire la valeur cible.
     
-****VIII/EVALUATION:
+VIII/EVALUATION:
 *La précision du système est: 99,91% mais le système a un problème à détecter les pannes. 
 
-****IX/TEST:
+IX/TEST:
     Finalement, On entre un nouvel échantillon avec des nouvelles valeurs qu’on choisit et on voit le prédiction du système. 
