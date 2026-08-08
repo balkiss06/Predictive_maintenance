@@ -1,3 +1,12 @@
+# PREDICTIVE MAINTENANCE SYSTEM ⚙️
+### Machine learning project
+## *Author: Balkis Joudi* 
+**LinkedIn:** https://www.linkedin.com/in/balkis-joudi-332076328/
+
+---
+---
+
+
 ## **I/OBJECTIF:** <br>
  Les pannes imprévues, les arrets soudains des machines entrainant une interruption de la production et une perte de productivité , les couts élevés de réparation... tous ces problèmes que témoignent les industries quotidiennement peuvent etre résolus par un système de maintenance prédictive qui est capable de prédire les pannes des machines avant qu’elles surviennent en se basant sur leurs données de fonctionnement.
 
@@ -77,6 +86,4 @@ Finalement, On entre un nouvel échantillon avec des nouvelles valeurs qu’on c
     Un démarche composé d’un EDA, suivi d’un prétraitement des données, un entraînement du modèle et finalement une évaluation nous a identifié le modèle le plus performant pour cette tâche. 
        Les résultats montre ,ainsi, qu’un tel modèle permet d'anticiper les défaillances, réduire les arrêts imprévus et optimiser les opérations de maintenance dans les secteurs industriels.
        
-## Author
-**Balkis Joudi**
--LinkedIn: https://www.linkedin.com/in/balkis-joudi-332076328/
+
